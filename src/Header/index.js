@@ -5,6 +5,9 @@ function Nav({onSetActiveView}) {
     <nav className="nav">
       <p>Accessibility University</p>
       <div className="links">
+        <button onClick={() => onSetActiveView('dev')}>
+          Dev
+        </button>
         <button onClick={() => onSetActiveView('design')}>
           Design
         </button>
