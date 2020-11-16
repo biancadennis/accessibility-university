@@ -8,9 +8,10 @@ function Nav({onSetActiveView}) {
         <button onClick={() => onSetActiveView('design')}>
           Design
         </button>
-        <button onClick={() => onSetActiveView('design')}>
+        <a onClick={() => onSetActiveView('qa')} tabIndex={0}>
           QA
-        </button>
+        </a>
+
       </div>
     </nav>
   );
