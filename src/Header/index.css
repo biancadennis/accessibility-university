@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+}
+.links {
+  display: flex;
+  margin-left: 10px;
+}
+.links > button {
+  margin-right: 10px;
+}
