@@ -1,21 +1,18 @@
 import React from 'react'
+import Card from './Card'
 import { peeps } from './info.js'
+
+import './index.css'
 
 function Instructors({onSetActiveView}) {
   return (
     <React.Fragment>
-      <h2>Instructors</h2>
-      {peeps.map(peep => (
-        <div className="instructor-card">
-            <h2>{peep.name}</h2>
-            <img src={peep.imageUrl}/>
-            <p>{peep.occupation}</p>
-            <p>{peep.description}</p>
-            {peep.more && (
-              <a href={peep.more.link}>View More</a>
-            )}
-        </div>
-      ))}
+      <h2 className="instructors-heading">Instructors</h2>
+      <div className="instructors-wrapper">
+        {peeps.map(peep => (
+          <Card peep={peep}/>
+        ))}
+      </div>
     </React.Fragment>
   );
 }

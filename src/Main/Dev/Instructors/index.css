@@ -1,0 +1,54 @@
+.instructors-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.instructor-card {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #8346A0;
+  text-align: center;
+  padding: 20px;
+  margin: 25px;
+}
+.more-link {
+  margin-top: 10px;
+}
+.more-link > a {
+  color: #fff;
+}
+.instructor-expand-button {
+  background-color: #fff;
+  width: 40px;
+  border: none;
+}
+.instructor-expand-button > img{
+  height: 20px;
+}
+.more-link > a:hover, .more-link > a:focus {
+  outline: none;
+  color: #eee;
+}
+.instructors-heading {
+  text-align: center;
+}
+.instructor-photo-wrapper {
+  text-align: center;
+  padding: 4px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 150px;
+}
+.instructor-photo-wrapper > img {
+  border-radius: 50%;
+  width: 150px;
+}
+.instructor-info {
+  margin-left: 10px;
+}
+.instructor-occupation {
+  font-style: italic;
+}
