@@ -1,20 +1,26 @@
+import cn from 'classnames'
 import './index.css'
 
-function Nav({onSetActiveView}) {
+function Nav({onSetActiveView, activeView}) {
   return (
     <nav className="nav">
       <p>Accessibility University</p>
       <div className="links">
-        <button onClick={() => onSetActiveView('dev')}>
+        <button
+          className={cn('link', {active: activeView === 'dev'})}
+          onClick={() => onSetActiveView('dev')}>
           Dev
         </button>
-        <button onClick={() => onSetActiveView('design')}>
+        <button
+          className={cn('link', {active: activeView === 'design'})}
+          onClick={() => onSetActiveView('design')}>
           Design
         </button>
-        <a onClick={() => onSetActiveView('qa')} tabIndex={0}>
+        <a
+          className={cn('link', {active: activeView === 'qa'})}
+          onClick={() => onSetActiveView('qa')} tabIndex={0}>
           QA
         </a>
-
       </div>
     </nav>
   );

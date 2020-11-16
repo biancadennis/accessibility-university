@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <div>
-        <Header onSetActiveView={setActiveView}/>
+        <Header onSetActiveView={setActiveView} activeView={activeView}/>
         <Main activeView={activeView}/>
       </div>
     </div>
