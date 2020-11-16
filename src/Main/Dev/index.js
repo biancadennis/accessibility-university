@@ -7,8 +7,8 @@ function Dev() {
     <div>
       <div className="dev-header">
         <img src={AccessibilityU}/>
-        <Instructors/>
       </div>
+      <Instructors/>
     </div>
   );
 }
