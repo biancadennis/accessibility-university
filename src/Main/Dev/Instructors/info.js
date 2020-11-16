@@ -9,7 +9,7 @@ export const peeps = [
     name: 'Ian Malcolm',
     occupation: 'Chaotician',
     description: 'Loves accessibility and all his ex-wives',
-    imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuVonlED1idGVNC2dV4AXvHNbkRdGm8VWzXw&usqp=CAU',
+    imageUrl: 'https://static.wikia.nocookie.net/jurrassic-wolrd/images/a/ad/Large_jurassic_park_blu-ray_1x.jpg/revision/latest?cb=20151224073550',
     more: {
       link: 'https://www.youtube.com/watch?v=4PLvdmifDSk',
       description: 'Ian Malcom gives Hammond an ethics lecture'
