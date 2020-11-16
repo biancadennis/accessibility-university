@@ -1,8 +1,15 @@
+import AccessibilityU from './AccessibilityU.svg'
+import './index.css'
 
-function Design() {
+function Dev() {
   return (
-    <div> Dev Time</div>
+    <div>
+      Dev Time
+      <div className="dev-header">
+        <img src={AccessibilityU}/>
+      </div>
+    </div>
   );
 }
 
-export default Design;
+export default Dev;
