@@ -8,7 +8,7 @@ function Card({peep}) {
   return (
     <div className="instructor-card">
         <div className="instructor-photo-wrapper">
-          <img src={peep.imageUrl}/>
+          <img src={peep.image}/>
         </div>
         <div className="instructor-info">
           <h2 className="instructor-name">{peep.name}</h2>
