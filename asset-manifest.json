@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/accessibility-university/static/css/main.4f709acf.chunk.css",
+    "main.js": "/accessibility-university/static/js/main.9068e2c8.chunk.js",
+    "main.js.map": "/accessibility-university/static/js/main.9068e2c8.chunk.js.map",
+    "runtime-main.js": "/accessibility-university/static/js/runtime-main.2bcc419d.js",
+    "runtime-main.js.map": "/accessibility-university/static/js/runtime-main.2bcc419d.js.map",
+    "static/js/2.fcb93b15.chunk.js": "/accessibility-university/static/js/2.fcb93b15.chunk.js",
+    "static/js/2.fcb93b15.chunk.js.map": "/accessibility-university/static/js/2.fcb93b15.chunk.js.map",
+    "static/js/3.43bc6eeb.chunk.js": "/accessibility-university/static/js/3.43bc6eeb.chunk.js",
+    "static/js/3.43bc6eeb.chunk.js.map": "/accessibility-university/static/js/3.43bc6eeb.chunk.js.map",
+    "index.html": "/accessibility-university/index.html",
+    "static/css/main.4f709acf.chunk.css.map": "/accessibility-university/static/css/main.4f709acf.chunk.css.map",
+    "static/js/2.fcb93b15.chunk.js.LICENSE.txt": "/accessibility-university/static/js/2.fcb93b15.chunk.js.LICENSE.txt",
+    "static/media/AccessibilityU.44e06bc5.svg": "/accessibility-university/static/media/AccessibilityU.44e06bc5.svg",
+    "static/media/ianmalcolm.51c31c20.jpg": "/accessibility-university/static/media/ianmalcolm.51c31c20.jpg",
+    "static/media/kellymalcolm.da5377b6.jpg": "/accessibility-university/static/media/kellymalcolm.da5377b6.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bcc419d.js",
+    "static/js/2.fcb93b15.chunk.js",
+    "static/css/main.4f709acf.chunk.css",
+    "static/js/main.9068e2c8.chunk.js"
+  ]
+}
