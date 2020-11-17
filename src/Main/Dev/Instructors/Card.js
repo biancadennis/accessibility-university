@@ -12,6 +12,9 @@ function Card({peep}) {
         </div>
         <div className="instructor-info">
           <h2 className="instructor-name">{peep.name}</h2>
+          {peep.isFavorite && (
+            <p className="instructor-favorite">Favorite</p>
+          )}
           <p className="instructor-occupation">{peep.occupation}</p>
           <p>{peep.description}</p>
           {peep.more && (

@@ -13,7 +13,8 @@ export const peeps = [
     more: {
       link: 'https://www.youtube.com/watch?v=4PLvdmifDSk',
       description: 'Ian Malcom gives Hammond an ethics lecture'
-    }
+    },
+    isFavorite: true,
   },
   {
     name: 'Kelly Malcolm',
