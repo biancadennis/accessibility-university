@@ -31,9 +31,16 @@
   color: #fff;
 }
 .instructor-expand-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fff;
   width: 40px;
-  border: none;
+  margin: auto;
+  border-radius: 2px;
+}
+.instructor-expand-button:hover, .instructor-expand-button:focus {
+  background-color: #eee;
 }
 .instructor-expand-button > img{
   height: 20px;

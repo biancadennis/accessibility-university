@@ -18,9 +18,9 @@ function Card({peep}) {
           <p className="instructor-occupation">{peep.occupation}</p>
           <p>{peep.description}</p>
           {peep.more && (
-            <button className="instructor-expand-button" onClick={() => setOpen(!open)}>
+            <span className="instructor-expand-button" onClick={() => setOpen(!open)} tabIndex={0}>
               <img src={Expand}/>
-            </button>
+            </span>
           )}
           {open && (
             <div className="more-link">
