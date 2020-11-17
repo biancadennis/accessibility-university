@@ -1,7 +1,9 @@
-
+import '../../App.css'
 function Design() {
   return (
-    <div> Design Info coming soon</div>
+    <div>
+      <div className="coming-soon"> Design focused material coming soon </div>
+    </div>
   );
 }
 

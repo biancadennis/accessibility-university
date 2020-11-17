@@ -1,7 +1,9 @@
 
 function Design() {
   return (
-    <div> QA Info coming soon</div>
+    <div>
+      <div className="coming-soon"> QA focused material coming soon </div>
+    </div>
   );
 }
 
