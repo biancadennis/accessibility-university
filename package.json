@@ -1,5 +1,6 @@
 {
   "name": "accessibility-university",
+  "homepage" : "https://biancadennis.github.io/accessibility-university",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
